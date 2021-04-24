@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="wellcome">
+        <h1>Olá, bem vindo!</h1>
+    </div>
+    <div id="a_fazer">
+        <div class="center">
+            <img src="../Images/Alarm (2 of 8).png" class="inline-block img center">
+            <h2 class="subtitle inline-block">À Fazer:</h2> 
+            <img src="../Images/Alarm (2 of 8).png" class="inline-block img center">
+        </div>
+    </div>
+    <div id="concluidos">
+        <div class="center">
+            <img src="../Images/Check-mard.png" class="inline-block img center">
+            <h2 class="subtitle inline-block">Concluidos:</h2>    
+            <img src="../Images/Check-mard.png" class="inline-block img center">    
+        </div>
+    </div>
+    <div id="adicionar">
+        <div class="center">
+            <img src="../Images/Writing-on-sheet.png" class="inline-block img center">
+            <h2 class="subtitle inline-block center">Nova tarefa:</h2>
+            <img src="../Images/Writing-on-sheet.png" class="inline-block img center">
+            <div class="nova_tarefa">
+                <p class="white"> Nome: </p>
+                <input id="nome_input" class="input">
+                <p class="white"> Data: </p>
+                <input id="data_input" class="input">
+                <br>
+                <button type="button" class="button" onclick="adicionar_tarefa()">Adicionar!</button>
+            </div>
+        </div>
+    </div>
+
+<script src='main.js'></script>
+</body>
+</html>
