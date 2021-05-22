@@ -14,7 +14,7 @@ mycol = mydb[""]
 def retornar_a_fazer():
     array = []
     myquery = {"status":"0"}
-    for x in mycol.find(myquery,{ "_id": 0}):
+    for x in mycol.find(myquery,{ "_id": 0}): # _id: 0 ~ Para não retornar na consulta!
         array.append(x)
     return jsonify({'tarefas':array})
 
