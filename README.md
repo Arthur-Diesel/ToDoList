@@ -10,8 +10,3 @@
 - [x] <b>Concluir Tarefa</b><i> (Altera onde a tarefa aparece na página Web) </i>
 
 <br>
-<p align="center">
-
-https://user-images.githubusercontent.com/62943499/120821148-96406400-c52b-11eb-8830-875056fbf257.mp4
-
-</p>
