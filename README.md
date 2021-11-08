@@ -1,5 +1,5 @@
-<h1 align="center">ToDoList-FlaskPyMongo</h1>
-<p align="center">🚀 Lista de afazeres construída com o framework Flask, JavaScript, HTML, CSS e um banco de dados MongoDB. 🚀</p>
+<h1 align="center">ToDoList</h1>
+<p align="center">🚀 Lista de afazeres construída com o framework Flask, JavaScript, HTML, CSS e um banco de dados MongoDB.</p>
 <br>
 
 ### ✅ Features :
